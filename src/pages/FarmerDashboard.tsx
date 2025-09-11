@@ -83,7 +83,7 @@ const FarmerDashboard = () => {
         </div>
 
         <Tabs defaultValue="overview" className="w-full">
-          <TabsList className="grid w-full grid-rows-2 md:grid-cols-7">
+          <TabsList className="grid w-full grid-cols-7">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="sell">Sell Products</TabsTrigger>
             <TabsTrigger value="analytics">Analytics</TabsTrigger>
