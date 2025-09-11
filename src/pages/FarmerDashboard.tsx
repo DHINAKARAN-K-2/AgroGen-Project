@@ -55,7 +55,7 @@ const FarmerDashboard = () => {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
-              <h1 className="text-2xl font-bold text-foreground">🟢 Agrogen</h1>
+              <h1 className="text-2xl font-bold text-foreground">Agrogen</h1>
               <Badge variant="secondary" className="text-sm">Farmer Dashboard</Badge>
             </div>
             <div className="flex items-center space-x-4">
@@ -83,7 +83,7 @@ const FarmerDashboard = () => {
         </div>
 
         <Tabs defaultValue="overview" className="w-full">
-          <TabsList className="grid w-full grid-cols-7">
+          <TabsList className="grid w-full grid-rows-2 md:grid-cols-7">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="sell">Sell Products</TabsTrigger>
             <TabsTrigger value="analytics">Analytics</TabsTrigger>
@@ -197,7 +197,7 @@ const FarmerDashboard = () => {
                     <MessageCircle className="w-4 h-4 mr-2" />
                     Open Chatbot
                   </Button>
-                  <div className="text-muted-foreground">
+                  <div className="hidden text-muted-foreground md:block">
                     Available in Hindi, English, Telugu, Tamil
                   </div>
                 </div>
@@ -207,7 +207,7 @@ const FarmerDashboard = () => {
                     <div>
                       <p className="text-sm text-muted-foreground mb-2">Assistant Preview:</p>
                       <p className="text-sm">
-                        नमस्ते! मैं आपकी खेती में मदद के लिए यहाँ हूँ। आप मुझसे फसल की कीमतें, बीमारी की जांच, या सरकारी योजनाओं के बारे में पूछ सकते हैं।
+                         Hello! I am here to help you with your farming. You can ask me about crop prices, disease checkups, or government schemes.
                       </p>
                     </div>
                   </div>
