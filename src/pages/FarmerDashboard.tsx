@@ -83,7 +83,8 @@ const FarmerDashboard = () => {
         </div>
 
         <Tabs defaultValue="overview" className="w-full">
-          <TabsList className="grid w-full grid-cols-7">
+          <TabsList className="flex w-full gap-2 overflow-x-auto 
+    sm:grid sm:grid-cols-7 sm:gap-0">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="sell">Sell Products</TabsTrigger>
             <TabsTrigger value="analytics">Analytics</TabsTrigger>
@@ -181,7 +182,7 @@ const FarmerDashboard = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="flex items-center space-x-4 mb-4">
+                <div className="flex flex-col sm:flex-row gap-2">
                   <Button 
                     onClick={() => setVoiceActive(true)}
                     className="flex-shrink-0 bg-gradient-hero"
