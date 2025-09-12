@@ -109,7 +109,8 @@ const RetailerDashboard = () => {
         </div>
 
         <Tabs defaultValue="browse" className="w-full">
-          <TabsList className="grid w-full grid-cols-4">
+          <TabsList className="flex w-full gap-2 overflow-x-auto 
+    sm:grid sm:grid-cols-4 sm:gap-0">
             <TabsTrigger value="browse">Browse Products</TabsTrigger>
             <TabsTrigger value="orders">My Orders</TabsTrigger>
             <TabsTrigger value="analytics">Business Analytics</TabsTrigger>
@@ -352,7 +353,7 @@ const RetailerDashboard = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="flex items-center space-x-4 mb-4">
+                <div className="flex flex-col sm:flex-row gap-2">
                   <Button 
                     onClick={() => setAssistantOpen(true)}
                     className="flex-shrink-0 bg-gradient-hero"
@@ -368,7 +369,7 @@ const RetailerDashboard = () => {
                     <MessageSquare className="w-4 h-4 mr-2" />
                     Open Chatbot
                   </Button>
-                  <div className="text-muted-foreground">
+                  <div className="hidden text-muted-foreground md:block">
                     Available in Hindi, English, Telugu, Tamil
                   </div>
                 </div>

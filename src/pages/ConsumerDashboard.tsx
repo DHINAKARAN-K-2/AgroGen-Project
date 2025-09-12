@@ -97,7 +97,7 @@ const ConsumerDashboard = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <h1 className="text-2xl font-bold text-foreground">🟢 Agrogen</h1>
-              <Badge variant="secondary" className="text-sm">Consumer Dashboard</Badge>
+              <Badge variant="secondary" className="md:text-sm">Consumer Dashboard</Badge>
             </div>
             <div className="flex items-center space-x-4">
               <Button variant="outline" size="sm">
