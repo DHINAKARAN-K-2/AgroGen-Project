@@ -81,8 +81,8 @@ const RetailerDashboard = () => {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
-              <h1 className="text-2xl font-bold text-foreground">🟢 Agrogen</h1>
-              <Badge variant="secondary" className="text-sm">Retailer Dashboard</Badge>
+              <h1 className="md:text-2xl font-bold text-foreground">🟢Agrogen</h1>
+              <Badge variant="secondary" className="md:text-sm">Retailer Dashboard</Badge>
             </div>
             <div className="flex items-center space-x-4">
               <Button variant="outline" size="sm">

@@ -27,7 +27,7 @@ const Home = () => {
       description: "Buy fresh produce directly from farmers",
       icon: ShoppingCart,
       path: "/register/consumer", 
-      color: "bg-gradient-card"
+      color: "bg-gradient-primary"
     }
   ];
 
