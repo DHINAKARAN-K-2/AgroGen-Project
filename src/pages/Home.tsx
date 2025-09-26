@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
 import { Sprout, Users, ShoppingCart } from "lucide-react";
 import heroImage from "@/assets/hero-agriculture.jpg";
-import logoImage from "@/assets/logo.png"
+
 
 const Home = () => {
   const navigate = useNavigate();
@@ -42,7 +42,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">
           <h1 className="text-6xl md:text-8xl font-bold mb-6">
-            <img src={logoImage} alt="🟢" className="w-5 h-5"></img> Agrogen
+            🟢Agrogen
           </h1>
           <p className="text-2xl md:text-3xl mb-4 opacity-90">
             The Next Generation Agriculture
